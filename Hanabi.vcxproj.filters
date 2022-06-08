@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="InlineHook.h">
+      <Filter>Include\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiHeader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Client\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Client\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Client\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Client\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractModule.h">
+      <Filter>Client\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickGui.h">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleManager.h">
+      <Filter>Client\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Client\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="IDProtection.h">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Client\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FasterSpeed.h">
+      <Filter>Client\Module\Modules\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="HighJump.h">
+      <Filter>Client\Module\Modules\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStructs.h">
+      <Filter>Client\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="AirJump.h">
+      <Filter>Client\Module\Modules\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardSimulator.h">
+      <Filter>Client\Util\Simulators\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Fly.h">
+      <Filter>Client\Module\Modules\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerUtil.h">
+      <Filter>Client\Util\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Client\Module\Modules\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="FakePosition.h">
+      <Filter>Client\Module\Modules\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Client\Util\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Notification.h">
+      <Filter>Client\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationManager.h">
+      <Filter>Client\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="Disabler.h">
+      <Filter>Client\Module\Modules\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase.h">
+      <Filter>Client\Module\Modules\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Reach.h">
+      <Filter>Client\Module\Modules\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Client\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Client\Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectDestroyer.h">
+      <Filter>Client\Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxESP.h">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseSimulator.h">
+      <Filter>Client\Util\Simulators\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Client\Module\Modules\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoClicker.h">
+      <Filter>Client\Module\Modules\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="FillBright.h">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Client\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Client\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineHook.cpp">
+      <Filter>Include\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Client\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractModule.cpp">
+      <Filter>Client\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickGui.cpp">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleManager.cpp">
+      <Filter>Client\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="IDProtection.cpp">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="FasterSpeed.cpp">
+      <Filter>Client\Module\Modules\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="HighJump.cpp">
+      <Filter>Client\Module\Modules\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStructs.cpp">
+      <Filter>Client\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="AirJump.cpp">
+      <Filter>Client\Module\Modules\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardSimulator.cpp">
+      <Filter>Client\Util\Simulators\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Fly.cpp">
+      <Filter>Client\Module\Modules\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerUtil.cpp">
+      <Filter>Client\Util\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Client\Module\Modules\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="FakePosition.cpp">
+      <Filter>Client\Module\Modules\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Client\Util\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Notification.cpp">
+      <Filter>Client\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationManager.cpp">
+      <Filter>Client\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="Disabler.cpp">
+      <Filter>Client\Module\Modules\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase.cpp">
+      <Filter>Client\Module\Modules\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Reach.cpp">
+      <Filter>Client\Module\Modules\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectDestroyer.cpp">
+      <Filter>Client\Util\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxESP.cpp">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseSimulator.cpp">
+      <Filter>Client\Util\Simulators\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Client\Module\Modules\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoClicker.cpp">
+      <Filter>Client\Module\Modules\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="FillBright.cpp">
+      <Filter>Client\Module\Modules\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{4f618622-b881-4719-92e7-b78a3ae221d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Hook">
+      <UniqueIdentifier>{1e95f2a0-e23a-4c53-9db1-4aa9c1eb4018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ImGui">
+      <UniqueIdentifier>{71584522-37f4-426e-a506-847459787d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{10469f56-193b-4a27-8e55-f4f6bbe34df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Event">
+      <UniqueIdentifier>{e4931630-667a-4db0-9f13-fd29e00576d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Renderer">
+      <UniqueIdentifier>{b6833f1b-829c-4334-b70c-61b5c4716155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Util">
+      <UniqueIdentifier>{7dded08b-2537-4e8a-95e9-6d81ba06a074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Module">
+      <UniqueIdentifier>{95452adb-806d-422a-a67f-da03d8f89346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Module\Modules">
+      <UniqueIdentifier>{075995af-2ca8-44bb-a003-e58ae81fa2ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Module\Modules\Render">
+      <UniqueIdentifier>{b6912bea-ffa0-4af6-a24f-2e8503725e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Module\Modules\Movement">
+      <UniqueIdentifier>{9dc349e9-c851-4a76-9e66-8b55d447ff46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\SDK">
+      <UniqueIdentifier>{ef3657fd-32b1-4bc5-80b0-5218f91aaeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Util\Simulators">
+      <UniqueIdentifier>{ea5f0705-0a6e-4586-826b-78b6638c1541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Util\Simulators\Keyboard">
+      <UniqueIdentifier>{ab233b30-16b0-4baa-a5c9-7f0bbdc7b3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Util\Time">
+      <UniqueIdentifier>{39c0d4fc-8e52-4123-bb03-eea4a6092202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Module\Modules\Combat">
+      <UniqueIdentifier>{ca2b23b3-4d16-4d13-8991-336b14801f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Module\Modules\Player">
+      <UniqueIdentifier>{7e7981c1-2483-4d87-9b0f-052a7b2579e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Util\Animation">
+      <UniqueIdentifier>{366cf7ac-cfbe-4c58-a798-dd0a6b0fcba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Notification">
+      <UniqueIdentifier>{a7a6958e-48b6-4a50-bde5-873b2fc0068c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Module\Modules\World">
+      <UniqueIdentifier>{ab529cb4-4505-400a-95a5-83582558c9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Util\Memory">
+      <UniqueIdentifier>{5fb10c5d-ac1b-4b88-8a0b-a6f5df4fb2af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\Util\Simulators\Mouse">
+      <UniqueIdentifier>{a2c06b75-a71d-4ed6-b184-0c2b2649d53b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
